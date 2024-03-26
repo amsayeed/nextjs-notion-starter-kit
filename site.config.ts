@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Ahmed Sayed Personal Website',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
+  domain: 'amsayed.dev',
   author: 'Ahmed Sayed',
 
   // open graph metadata (optional)
@@ -55,11 +55,15 @@ export default siteConfig({
    navigationLinks: [
     {
        title: 'Resume',
-      pageId: '013408dbb8a34e08b14b7b72ee791310'
+       pageId: 'cc62b1919dbf49ad8d6c990f61bdf901'
     },
      {
-       title: 'Contact',
-     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
+       title: 'Blog',
+       url:'https://amsayed.stomod.com/'
+
      }
+
+
+
    ]
 })
